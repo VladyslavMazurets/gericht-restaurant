@@ -5,6 +5,7 @@
 
 .app__video:hover .app__video-overlay {
     opacity: 1;
+    transition: 1s;
 }
 
 .app__video video {
@@ -15,6 +16,7 @@
 
 .app__video-overlay {
     opacity: 0;
+    transition: 1s;
     position: absolute;
     inset: 0;
     background: rgba(0, 0, 0, 0.30);
@@ -29,3 +31,4 @@
     cursor: pointer;
     
 }
+
